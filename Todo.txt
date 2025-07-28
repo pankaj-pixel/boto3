@@ -1,0 +1,11 @@
+boto3 is aws sdk for python
+
+client vs resource
+
+client -> low level response , return raw dictionary data like json , more resouce control , all resource available
+
+resource -> hight level response , return python object ,easy to parse , but handfull of resources can be handled
+
+
+example client has boto3.client.ec2.describe_regions() but boto3.resouce.ec2.describe_regions() not exist
+
